@@ -3,3 +3,5 @@
 1_Nlp/chatbot_weights.ckpt.meta
 1_Nlp/checkpoint
 2_NewsPaperCalssification/data/
+financial_news/
+tech_news/
