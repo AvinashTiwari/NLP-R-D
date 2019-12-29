@@ -20,3 +20,10 @@ for conversation in conversations[:-1]:
     conversations_id.append(_conversation.split(","))
     
     
+questions = []
+answers = []
+for conversation in conversations_id:
+    for i in range(len(conversation) - 1):
+        questions.append(id2line[conversation[i]])
+        answers.append(id2line[conversation[i + 1]])
+        
