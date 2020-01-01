@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c6e47-23ec-47cf-b5ea-8908351a429e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/aliasi-lingpipe-4.1.2-JL1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/BasicCleaningOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/DataValidationExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/SimpleJavaTokenizers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/SpecializedJavaTokenizers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/StemmingAndLemmaztion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/en-token.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/Stop Word Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/Stop Word Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/jsoup/JsoupExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/avinash/jsoup/JsoupExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/wiki/BlikiExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/avinash/wiki/BlikiExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +44,22 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/aliasi-lingpipe-4.1.2-JL1.0.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learn/avinash/specialized" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\specialized" />
+      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\resources" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\lib" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\cleantext" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\pdf" />
-      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\commonfilr" />
-      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\wiki" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlikiExample">
+  <component name="RunManager" selected="Application.StemmingAndLemmaztion">
     <configuration name="BlikiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.wiki.BlikiExample" />
       <module name="java-nlp" />
@@ -68,12 +73,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsoupExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.jsoup.JsoupExample" />
+    <configuration name="SimpleJavaTokenizers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.specialized.SimpleJavaTokenizers" />
       <module name="java-nlp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.jsoup.*" />
+          <option name="PATTERN" value="learn.avinash.specialized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecializedJavaTokenizers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.specialized.SpecializedJavaTokenizers" />
+      <module name="java-nlp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.specialized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StemmingAndLemmaztion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.specialized.StemmingAndLemmaztion" />
+      <module name="java-nlp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.specialized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopWordExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.cleantext.StopWordExamples" />
+      <module name="java-nlp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.cleantext.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StemmingAndLemmaztion" />
+        <item itemvalue="Application.SpecializedJavaTokenizers" />
+        <item itemvalue="Application.SimpleJavaTokenizers" />
+        <item itemvalue="Application.StopWordExamples" />
         <item itemvalue="Application.BlikiExample" />
-        <item itemvalue="Application.JsoupExample" />
       </list>
     </recent_temporary>
   </component>
@@ -118,33 +165,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1577859240666" />
-    <state x="473" y="156" key="FileChooserDialogImpl" timestamp="1577859232048">
+    <state x="473" y="156" key="FileChooserDialogImpl" timestamp="1577916499939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577859232048" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1577859300206">
+    <state x="473" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577916499939" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1577917570193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577859300206" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1577859300206">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1577917570193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577859300206" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1577859300206">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1577917570193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577859300206" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1577859300206">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1577917570193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577859300206" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1577859296383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1577859296383" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1577858668365">
+    <state x="279" y="0" key="SettingsEditor" timestamp="1577916504018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577858668365" />
+    <state x="279" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577916504018" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1577916359748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577916359748" />
   </component>
 </project>

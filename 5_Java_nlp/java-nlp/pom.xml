@@ -63,7 +63,30 @@
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.apache.opennlp/opennlp-tools -->
+        <dependency>
+            <groupId>org.apache.opennlp</groupId>
+            <artifactId>opennlp-tools</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.9.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/de.julielab/aliasi-lingpipe -->
+        <dependency>
+            <groupId>de.julielab</groupId>
+            <artifactId>aliasi-lingpipe</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.9.2</version>
+            <classifier>models</classifier>
+        </dependency>
 
 
 

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StopWordExamples {
+class StopWordExamples {
 
     public static void main(String[] args) {
         String sentence = "The first thing she caught was a 5 pound salmon.";
