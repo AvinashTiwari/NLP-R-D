@@ -53,3 +53,19 @@ for question in questions:
 clean_answers = []
 for answer in answers:
     clean_answers.append(clean_text(answer))
+    
+
+word2count = {}
+for question in clean_questions:
+    for word in question.split():
+        if word not in word2count:
+            word2count[word] = 1
+        else:
+            word2count[word] += 1
+            
+for answer in clean_answers:
+    for word in answer.split():
+        if word not in word2count:
+            word2count[word] = 1
+        else:
+            word2count[word] += 1
