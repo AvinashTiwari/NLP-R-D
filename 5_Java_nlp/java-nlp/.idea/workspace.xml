@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c6e47-23ec-47cf-b5ea-8908351a429e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/SimpleJavaTokenizers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/SpecializedJavaTokenizers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/specialized/StemmingAndLemmaztion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/en-token.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/sbd/BreakIteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/sbd/LingPipeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/sbd/OpenNLPExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/sbd/SentenceModelTrainingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/sbd/sentence.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/en-sent.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/Stop Word Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/cleantext/Stop Word Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/jsoup/JsoupExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/avinash/jsoup/JsoupExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/wiki/BlikiExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/avinash/wiki/BlikiExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/en-token.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learn/avinash/specialized" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,20 +51,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\specialized" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\resources" />
+      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\sbd" />
+      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\specialized" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\lib" />
       <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\cleantext" />
-      <recent name="E:\Nlp\5_Java_nlp\java-nlp\src\main\java\learn\avinash\pdf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StemmingAndLemmaztion">
-    <configuration name="BlikiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.wiki.BlikiExample" />
+  <component name="RunManager" selected="Application.SentenceModelTrainingExample">
+    <configuration name="BreakIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.sbd.BreakIteratorExample" />
       <module name="java-nlp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.wiki.*" />
+          <option name="PATTERN" value="learn.avinash.sbd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleJavaTokenizers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.specialized.SimpleJavaTokenizers" />
+    <configuration name="LingPipeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.sbd.LingPipeExample" />
       <module name="java-nlp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.specialized.*" />
+          <option name="PATTERN" value="learn.avinash.sbd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecializedJavaTokenizers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.specialized.SpecializedJavaTokenizers" />
+    <configuration name="OpenNLPExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.sbd.OpenNLPExample" />
       <module name="java-nlp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.specialized.*" />
+          <option name="PATTERN" value="learn.avinash.sbd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentenceModelTrainingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.sbd.SentenceModelTrainingExample" />
+      <module name="java-nlp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.sbd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWordExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.cleantext.StopWordExamples" />
-      <module name="java-nlp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.cleantext.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentenceModelTrainingExample" />
+        <item itemvalue="Application.OpenNLPExample" />
+        <item itemvalue="Application.LingPipeExample" />
+        <item itemvalue="Application.BreakIteratorExample" />
         <item itemvalue="Application.StemmingAndLemmaztion" />
-        <item itemvalue="Application.SpecializedJavaTokenizers" />
-        <item itemvalue="Application.SimpleJavaTokenizers" />
-        <item itemvalue="Application.StopWordExamples" />
-        <item itemvalue="Application.BlikiExample" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +168,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577916499939" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1577917570193">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1577918396786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1577917570193">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577918396786" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1577918396786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1577917570193">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577918396786" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1577918396786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1577917570193">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577918396786" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1577918396786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577917570193" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577918396786" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1577859296383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
