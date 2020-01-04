@@ -88,3 +88,10 @@ for word , count in word2count.items():
 
         
     
+tokens = ['<PAD>', 'EOS', '<OUT>', '<SOS>']
+for token in tokens:
+    questionwords2int[token] = len(questionwords2int) + 1
+for token in tokens:
+    answerwords2int[token] = len(answerwords2int) + 1
+    
+answersints2word  = {w_i: w for w,w_i in answerwords2int.items()}
