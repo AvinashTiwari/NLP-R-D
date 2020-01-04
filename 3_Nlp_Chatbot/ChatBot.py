@@ -95,3 +95,27 @@ for token in tokens:
     answerwords2int[token] = len(answerwords2int) + 1
     
 answersints2word  = {w_i: w for w,w_i in answerwords2int.items()}
+
+for i in range(len(clean_answers)):
+    clean_answers[i] += ' <EOS>'
+    
+question_to_int = []
+for question in clean_questions:
+    ints = []
+    for word in question.split():
+        if word not in questionwords2int:
+            ints.append(questionwords2int['<OUT>'])
+        else:
+            ints.append(questionwords2int[word])
+    question_to_int.append(ints)
+    
+answers_to_int = []
+for answer in clean_answers:
+    ints = []
+    for word in question.split():
+        if word not in answerwords2int:
+            ints.append(answerwords2int['<OUT>'])
+        else:
+            ints.append(answerwords2int[word])
+    answers_to_int.append(ints)
+            
