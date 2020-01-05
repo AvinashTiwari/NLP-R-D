@@ -38,7 +38,8 @@ public class CreateRegularExpressionNED {
     static final String[] SENTENCES = {"Jack was taller than Peter. ",
             "However, Mr. Smith was taller than both of them. ",
             "The same could be said for Mary and Tommy. ",
-            "Mary Anne was the tallest."};
+            "Mary Anne was the tallest.",
+    "Avinash worked on this code"};
 
     public static void main(String[] args) {
 
@@ -53,7 +54,7 @@ public class CreateRegularExpressionNED {
 
     private static String getTrainingText() {
         String names[] = {"Bill", "Sue", "Mary Anne", "John Henry", "Patty",
-            "Jones", "Smith", "Albertson", "Henry", "Robertson"};
+            "Jones", "Smith", "Albertson", "Henry", "Robertson", "Avinash"};
         String prefixes[] = {"", "Mr. ", "", "Dr. ", "", "Mrs. ", "", "Ms. "};
         Random nameIndex = new Random();
         Random prefixIndex = new Random();
@@ -111,7 +112,7 @@ public class CreateRegularExpressionNED {
 
     public static void testModel(TokenNameFinderModel tokenNameFinderModel) {
         try (InputStream tokenModelStream = new FileInputStream(
-                new File("en-token.bin"));) {
+                new File("E:\\Nlp\\6_Java_Nlp_Ned\\src\\main\\resources\\en-token.bin"));) {
 
             TokenizerModel tokenizerModel = new TokenizerModel(tokenModelStream);
             Tokenizer tokenizer = new TokenizerME(tokenizerModel);
